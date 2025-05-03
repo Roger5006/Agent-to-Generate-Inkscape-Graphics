@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <name>difference Paths</name>
+  <id>org.inkscape.my_extensions.union_paths</id>
+  <effect>
+    <object-type>path</object-type>
+    <effects-menu>
+      <submenu name="My Extensions"/>
+    </effects-menu>
+  </effect>
+  <script>
+    <command location="inx" interpreter="python">union.py</command>
+  </script>
+</inkscape-extension>
